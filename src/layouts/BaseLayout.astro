@@ -17,7 +17,16 @@ const { title } = Astro.props;
         <meta charset="UTF-8" />
         <meta name="description" content="Byt3roof - Software Development" />
         <meta name="viewport" content="width=device-width" />
-        <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+        <link
+            rel="icon"
+            href="/favicon_dark.png"
+            media="(prefers-color-scheme: dark)"
+        />
+        <link
+            rel="icon"
+            href="/favicon_light.png"
+            media="(prefers-color-scheme: light)"
+        />
         <meta name="generator" content={Astro.generator} />
         <link
             href="https://fonts.googleapis.com/icon?family=Material+Icons"
