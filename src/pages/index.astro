@@ -8,7 +8,17 @@ const { title } = content.header;
 const heroData = content.Inicio["hero-section"];
 const featuresData = content.Inicio.sections.find(
 	(s) => s.type === "features_list",
-);
+) as
+	| {
+			title: string;
+			subtitle: string;
+			items: {
+				icon: string;
+				headline: string;
+				description: string;
+			}[];
+	  }
+	| undefined;
 ---
 
 <BaseLayout title={title}>
