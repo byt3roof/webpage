@@ -2,6 +2,8 @@
 import BaseLayout from "../layouts/BaseLayout.astro";
 import Hero from "../components/sections/Hero.astro";
 import Features from "../components/sections/Features.astro";
+import BenefitBlocks from "../components/sections/BenefitBlocks.astro";
+import CTA from "../components/sections/CTA.astro";
 import content from "../content.json";
 
 const { title } = content.header;
@@ -19,11 +21,36 @@ const featuresData = content.Inicio.sections.find(
 			}[];
 	  }
 	| undefined;
+
+const benefitBlocksData = content.Inicio.sections.find(
+	(s) => s.type === "benefit_blocks",
+) as
+	| {
+			title: string;
+			subtitle: string;
+			items: {
+				title: string;
+				description: string;
+				tag: string;
+			}[];
+	  }
+	| undefined;
+
+const ctaData = content.Inicio.sections.find((s) => "ctaPrimaryButton" in s) as
+	| {
+			title: string;
+			subtitle: string;
+			ctaPrimaryButton: string;
+			ctaSecondaryButton: string;
+	  }
+	| undefined;
 ---
 
 <BaseLayout title={title}>
 	<main>
 		<Hero data={heroData} />
 		{featuresData && <Features data={featuresData} />}
+		{benefitBlocksData && <BenefitBlocks data={benefitBlocksData} />}
+		{ctaData && <CTA data={ctaData} />}
 	</main>
 </BaseLayout>
