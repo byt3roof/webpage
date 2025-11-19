@@ -1,0 +1,19 @@
+---
+import BaseLayout from "../layouts/BaseLayout.astro";
+import Hero from "../components/sections/Hero.astro";
+import Features from "../components/sections/Features.astro";
+import content from "../content.json";
+
+const { title } = content.header;
+const heroData = content.Inicio["hero-section"];
+const featuresData = content.Inicio.sections.find(
+	(s) => s.type === "features_list",
+);
+---
+
+<BaseLayout title={title}>
+	<main>
+		<Hero data={heroData} />
+		{featuresData && <Features data={featuresData} />}
+	</main>
+</BaseLayout>
