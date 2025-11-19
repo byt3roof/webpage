@@ -1,0 +1,89 @@
+---
+interface Props {
+    data: {
+        title: string;
+        subtitle: string;
+        items: {
+            title: string;
+            description: string;
+            tag: string;
+        }[];
+    };
+}
+
+const { data } = Astro.props;
+---
+
+<section class="section benefit-blocks">
+    <div class="container">
+        <div class="section-header">
+            <h2>{data.title}</h2>
+            <p>{data.subtitle}</p>
+        </div>
+
+        <div class="benefits-grid">
+            {
+                data.items.map((item) => (
+                    <div class="benefit-card">
+                        <span class="tag">{item.tag}</span>
+                        <h3>{item.title}</h3>
+                        <p>{item.description}</p>
+                    </div>
+                ))
+            }
+        </div>
+    </div>
+</section>
+
+<style>
+    .section-header {
+        text-align: center;
+        max-width: 800px;
+        margin: 0 auto var(--spacing-xl);
+    }
+
+    .section-header h2 {
+        margin-bottom: var(--spacing-sm);
+    }
+
+    .section-header p {
+        font-size: 1.2rem;
+    }
+
+    .benefits-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+        gap: var(--spacing-lg);
+    }
+
+    .benefit-card {
+        background-color: var(--surface-color);
+        padding: var(--spacing-lg);
+        border-radius: 16px;
+        border: 1px solid var(--border-color);
+        position: relative;
+        overflow: hidden;
+    }
+
+    .tag {
+        display: inline-block;
+        background-color: rgba(0, 255, 157, 0.1);
+        color: var(--primary-color);
+        padding: 4px 12px;
+        border-radius: 100px;
+        font-size: 0.875rem;
+        font-weight: 500;
+        margin-bottom: var(--spacing-md);
+    }
+
+    .benefit-card h3 {
+        font-size: 1.5rem;
+        margin-bottom: var(--spacing-sm);
+    }
+
+    .benefit-card p {
+        color: var(--text-secondary);
+        line-height: 1.6;
+        margin-bottom: 0;
+    }
+</style>
