@@ -44,6 +44,29 @@
                         "description": "Desarrollamos soluciones que integran las normativas de tu industria, asegurando que tus procesos digitales no solo sean eficientes, sino también 100% compatibles y seguros."
                     }
                 ]
+            },
+            {
+                "title": "La diferencias de la automatización inteligente y la IA",
+                "subtitle": "No solo digitalizamos; infundimos inteligencia artifical y aprendizaje automático para multiplicar la productividad de tu equipo.",
+                "type": "benefit_blocks",
+                "items": [
+                    {
+                        "title": "Automatización de procesos críticos",
+                        "description": "Eliminamos tareas repetitivas en áreas como finanzas, RR.HH., lógistica y más, liberando a tu equipo para concentrarse en actividades de mayor valor estratégico.",
+                        "tag": "Eficiencia Inmediata"
+                    },
+                    {
+                        "title": "Integración de sistemas sin fricciones",
+                        "description": "Conectamos tu ERP, CRM, E-Commerce y herramientas de terceros para crear un ecosistema unificado, eliminando los silos de información y permitiendo una visión global de tus operaciones.",
+                        "tag": "Ecosistema Unificado"
+                    }
+                ]
+            },
+            {
+                "title": "Tu proximo nivel de eficiencia está a un clic de distancia",
+                "subtitle": "¿Cansado de sistemas que no evolucionan? da el paso hacia la transformación digital que garantiza resultados. Agenda una sesión con nosotros para evaluar tu caso y brindarte una solución que te permita crecer.",
+                "ctaPrimaryButton": "Agenda una sesión",
+                "ctaSecondaryButton": "Servicios disponibles"
             }
         ]
     },
