@@ -4,5 +4,22 @@
         "subtitle": "Desarrollamos herramientas tecnológicas a la medida que optimizan procesos, reducen costos y aceleran el crecimiento de tu equipo.",
         "ctaPrimary": "Contáctanos",
         "ctaSecondary": "Ver Servicios"
+    },
+    "valueProposition": {
+        "title": "Impulsa tu empresa con una plataforma unificada de gestión",
+        "cards": [
+            {
+                "title": "Automatiza tus procesos",
+                "description": "Optimiza ventas, compras, inventarios, finanzas y operaciones desde un solo software de gestión empresarial adaptable a tu negocio."
+            },
+            {
+                "title": "Toma decisiones con datos reales",
+                "description": "Obtén indicadores, reportes y análisis en tiempo real para dirigir tu empresa con información precisa y centralizada."
+            },
+            {
+                "title": "Crece sin límites",
+                "description": "Nuestra plataforma se ajusta a tu operación y escala conforme tu empresa crece, sin complicaciones ni procesos manuales."
+            }
+        ]
     }
 }
