@@ -1,5 +1,6 @@
 import { Navbar } from "./components/Navbar";
 import { Hero } from "./components/Hero";
+import { ValueProposition } from "./components/home/ValueProposition";
 
 function App() {
   return (
@@ -9,6 +10,7 @@ function App() {
       {/* Placeholder content to demonstrate layout */}
       <main>
         <Hero />
+        <ValueProposition />
       </main>
     </div>
   );
