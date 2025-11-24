@@ -3,6 +3,7 @@ import { Hero } from "./components/Hero";
 import { ValueProposition } from "./components/home/ValueProposition";
 import { ArtificialIntelligenceSolutions } from "./components/home/ArtificialIntelligenceSolutions";
 import { LeadSection } from "./components/home/LeadSection";
+import { Footer } from "./components/Footer";
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
         <ArtificialIntelligenceSolutions />
         <LeadSection />
       </main>
+      <Footer />
     </div>
   );
 }
