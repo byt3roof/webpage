@@ -1,7 +1,7 @@
 export const Card = ({ title, description, icon }) => {
     return (
         <div className="p-8 bg-white rounded-2xl border border-gray-100 shadow-sm hover:shadow-md hover:border-primary/20 transition-all duration-300 group h-full">
-            <div className="w-12 h-12 bg-primary/5 rounded-xl flex items-center justify-center mb-6 group-hover:bg-primary/10 transition-colors duration-300">
+            <div className="w-12 h-12 bg-primary/5 rounded-xl flex items-center justify-center mb-6 group-hover:bg-primary-hover/20 transition-colors duration-300">
                 {icon ? (
                     <img src={icon} alt="" className="w-6 h-6 text-primary" />
                 ) : (
