@@ -10,15 +10,18 @@
         "cards": [
             {
                 "title": "Automatiza tus procesos",
-                "description": "Optimiza ventas, compras, inventarios, finanzas y operaciones desde un solo software de gestión empresarial adaptable a tu negocio."
+                "description": "Optimiza ventas, compras, inventarios, finanzas y operaciones desde un solo software de gestión empresarial adaptable a tu negocio.",
+                "icon": "src/assets/icons/workflow_icon.svg"
             },
             {
                 "title": "Toma decisiones con datos reales",
-                "description": "Obtén indicadores, reportes y análisis en tiempo real para dirigir tu empresa con información precisa y centralizada."
+                "description": "Obtén indicadores, reportes y análisis en tiempo real para dirigir tu empresa con información precisa y centralizada.",
+                "icon": "src/assets/icons/agreement_icon.svg"
             },
             {
                 "title": "Crece sin límites",
-                "description": "Nuestra plataforma se ajusta a tu operación y escala conforme tu empresa crece, sin complicaciones ni procesos manuales."
+                "description": "Nuestra plataforma se ajusta a tu operación y escala conforme tu empresa crece, sin complicaciones ni procesos manuales.",
+                "icon": "src/assets/icons/grow_icon.svg"
             }
         ]
     }
