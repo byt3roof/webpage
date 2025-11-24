@@ -24,7 +24,10 @@ export const Hero = () => {
                 </p>
 
                 <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
-                    <PrimaryButton text={hero.ctaPrimary} />
+                    <PrimaryButton
+                        text={hero.ctaPrimary}
+                        onClick={() => window.open(content.contactInfo.whatsapp, '_blank')}
+                    />
 
                     <SecondaryButton text={hero.ctaSecondary} />
                 </div>
