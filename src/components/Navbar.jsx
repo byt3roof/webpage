@@ -1,5 +1,6 @@
 import { useState } from "react"
 import { PrimaryButton } from "./PrimaryButton";
+import content from '../../content.json';
 
 export const Navbar = () => {
     const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
@@ -34,7 +35,10 @@ export const Navbar = () => {
                     <div className="flex items-center gap-4">
                         {/* Desktop CTA */}
                         <div className="hidden md:block">
-                            <PrimaryButton text="Contacto" />
+                            <PrimaryButton
+                                text="Contacto"
+                                onClick={() => window.open(content.contactInfo.whatsapp, '_blank')}
+                            />
                         </div>
 
                         {/* Mobile CTA */}
