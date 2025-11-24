@@ -79,6 +79,48 @@
                 ],
                 "solutionStatement": "Transformamos procesos desordenados en flujos de trabajo claros, automatizados y medibles, usando software de gestión empresarial, desarrollos a la medida y herramientas de IA que se adaptan a tu operación.",
                 "ctaPrimary": "Cuéntanos qué problema quieres resolver"
+            },
+            "enterpriseSoftware": {
+                "title": "Software de administración empresarial que se adapta a tu forma de trabajar",
+                "subtitle": "Centraliza tus operaciones, automatiza procesos y obtén control total de tu empresa con una plataforma diseñada para crecer contigo.",
+                "cards": [
+                    {
+                        "title": "Control total en un solo lugar",
+                        "description": "Ventas, compras, inventarios, finanzas, proyectos y más… todo integrado en un sistema que elimina duplicidades y mejora la coordinación entre áreas."
+                    },
+                    {
+                        "title": "Procesos automatizados",
+                        "description": "Reduce errores y ahorra tiempo con flujos de trabajo que se ejecutan solos: aprobaciones, recordatorios, reportes y movimientos operativos."
+                    },
+                    {
+                        "title": "Información confiable para decidir",
+                        "description": "Reportes en tiempo real, indicadores claros y paneles visuales que te permiten tomar decisiones estratégicas basadas en datos reales."
+                    },
+                    {
+                        "title": "Crece sin perder control",
+                        "description": "El sistema escala con tu empresa: desde pequeñas operaciones hasta estructuras complejas con múltiples áreas o sucursales."
+                    }
+                ],
+                "ctaPrimary": "Conoce cómo funciona"
+            },
+            "customSolutions": {
+                "title": "Soluciones tecnológicas a la medida de tu negocio",
+                "subtitle": "Creamos herramientas personalizadas que impulsan tus operaciones: desde apps móviles hasta plataformas web y automatizaciones que trabajan por ti.",
+                "cards": [
+                    {
+                        "title": "Desarrollo de Apps Móviles",
+                        "description": "Construimos aplicaciones intuitivas y potentes para iOS y Android que digitalizan procesos, mejoran la comunicación y permiten trabajar desde cualquier lugar."
+                    },
+                    {
+                        "title": "Desarrollo Web Personalizado",
+                        "description": "Creamos sistemas web a la medida: portales, paneles administrativos, dashboards, sistemas de registro, herramientas internas y plataformas conectadas a tus datos."
+                    },
+                    {
+                        "title": "Automatización de Tareas y Flujos",
+                        "description": "Diseñamos automatizaciones inteligentes que eliminan tareas repetitivas, integran tus sistemas y ejecutan acciones sin intervención del equipo."
+                    }
+                ],
+                "ctaPrimary": "Solicita una solución a la medida"
             }
         }
     ]
