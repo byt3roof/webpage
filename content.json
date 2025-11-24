@@ -109,15 +109,18 @@
                 "cards": [
                     {
                         "title": "Desarrollo de Apps Móviles",
-                        "description": "Construimos aplicaciones intuitivas y potentes para iOS y Android que digitalizan procesos, mejoran la comunicación y permiten trabajar desde cualquier lugar."
+                        "description": "Construimos aplicaciones intuitivas y potentes para iOS y Android que digitalizan procesos, mejoran la comunicación y permiten trabajar desde cualquier lugar.",
+                        "icon": "src/assets/icons/mobile_development_icon.svg"
                     },
                     {
                         "title": "Desarrollo Web Personalizado",
-                        "description": "Creamos sistemas web a la medida: portales, paneles administrativos, dashboards, sistemas de registro, herramientas internas y plataformas conectadas a tus datos."
+                        "description": "Creamos sistemas web a la medida: portales, paneles administrativos, dashboards, sistemas de registro, herramientas internas y plataformas conectadas a tus datos.",
+                        "icon": "src/assets/icons/web_development.svg"
                     },
                     {
                         "title": "Automatización de Tareas y Flujos",
-                        "description": "Diseñamos automatizaciones inteligentes que eliminan tareas repetitivas, integran tus sistemas y ejecutan acciones sin intervención del equipo."
+                        "description": "Diseñamos automatizaciones inteligentes que eliminan tareas repetitivas, integran tus sistemas y ejecutan acciones sin intervención del equipo.",
+                        "icon": "src/assets/icons/workflow_2_icon.svg"
                     }
                 ],
                 "ctaPrimary": "Solicita una solución a la medida"
