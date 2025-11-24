@@ -65,5 +65,21 @@
             "email": "contacto@byt3roof.com",
             "whatsapp": "+52 784 117 3423"
         }
-    }
+    },
+    "services": [
+        {
+            "hero": {
+                "title": "Resolvemos los prolemas tecnólogicos que frenan a tu empresa",
+                "subtitle": "Si hoy tus procesos dependen de hojas de cálculo, correos perdidos y sistemas que no se hablan entre sí, te ayudamos a ordenarlo todo con soluciones de gestión y automatización hechas a la medida.",
+                "problemHighlights": [
+                    "Falta de control en ventas, inventarios o proyectos",
+                    "Información dispersa en diferentes sistemas y archivos",
+                    "Tareas repetitivas que consumen tiempo de tu equipo",
+                    "Reportes tardíos o poco confiables para tomar decisiones"
+                ],
+                "solutionStatement": "Transformamos procesos desordenados en flujos de trabajo claros, automatizados y medibles, usando software de gestión empresarial, desarrollos a la medida y herramientas de IA que se adaptan a tu operación.",
+                "ctaPrimary": "Cuéntanos qué problema quieres resolver"
+            }
+        }
+    ]
 }
