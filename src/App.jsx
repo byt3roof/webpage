@@ -2,6 +2,7 @@ import { Navbar } from "./components/Navbar";
 import { Hero } from "./components/Hero";
 import { ValueProposition } from "./components/home/ValueProposition";
 import { ArtificialIntelligenceSolutions } from "./components/home/ArtificialIntelligenceSolutions";
+import { LeadSection } from "./components/home/LeadSection";
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
         <Hero />
         <ValueProposition />
         <ArtificialIntelligenceSolutions />
+        <LeadSection />
       </main>
     </div>
   );
