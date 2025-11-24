@@ -44,5 +44,16 @@
         "title": "Automatizaciones inteligentes impulsadas por IA.",
         "subtitle": "Optimizamos tus procesos, infundimos inteligencia artificial y aprendizaje automático para multiplicar la productividad de tu equipo.",
         "label": "Eficiencia inmediata"
+    },
+    "leadSection": {
+        "title": "¿Listo para impulsar tu empresa con tecnología?",
+        "subtitle": "Hablemos sobre tus procesos y descubre cómo nuestras soluciones pueden automatizar, centralizar y escalar tus operaciones.",
+        "benefits": [
+            "Análisis inicial sin costo.",
+            "Diagnóstico de tus procesos actuales.",
+            "Propuesta de mejora basada en tus objetivos.",
+            "Implementación rápida y acompañamiento continuo."
+        ],
+        "ctaPrimary": "Agenda una llamada"
     }
 }
