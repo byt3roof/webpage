@@ -8,7 +8,7 @@ export const Navbar = () => {
     const [lastScrollY, setLastScrollY] = useState(0);
 
     const navLinks = [
-        { name: 'Inicio', href: '#' },
+        { name: 'Inicio', href: '/' },
         { name: 'Servicios', href: '/services' }
     ]
 
