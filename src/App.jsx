@@ -1,19 +1,21 @@
+import { Routes, Route } from 'react-router-dom';
 import { Navbar } from "./components/Navbar";
-import { Hero } from "./components/Hero";
-import { ValueProposition } from "./components/home/ValueProposition";
-import { ArtificialIntelligenceSolutions } from "./components/home/ArtificialIntelligenceSolutions";
+import { Footer } from "./components/Footer";
+import { Home } from "./pages/Home";
+import { Services } from './pages/Services';
 
 function App() {
   return (
     <div className="min-h-screen bg-white font-sans text-gray-900">
       <Navbar />
 
-      {/* Placeholder content to demonstrate layout */}
       <main>
-        <Hero />
-        <ValueProposition />
-        <ArtificialIntelligenceSolutions />
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/services" element={<Services />} />
+        </Routes>
       </main>
+      <Footer />
     </div>
   );
 }

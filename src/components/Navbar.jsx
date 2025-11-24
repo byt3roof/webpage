@@ -1,15 +1,40 @@
-import { useState } from "react"
+import { useState, useEffect } from "react"
 import { PrimaryButton } from "./PrimaryButton";
+import content from '../../content.json';
 
 export const Navbar = () => {
     const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
+    const [isVisible, setIsVisible] = useState(true);
+    const [lastScrollY, setLastScrollY] = useState(0);
+
     const navLinks = [
-        { name: 'Inicio', href: '#' },
-        { name: 'Servicios', href: '#' }
+        { name: 'Inicio', href: '/' },
+        { name: 'Servicios', href: '/services' }
     ]
 
+    useEffect(() => {
+        const controlNavbar = () => {
+            if (typeof window !== 'undefined') {
+                // Hide if scrolling down and not at the very top
+                if (window.scrollY > lastScrollY && window.scrollY > 100) {
+                    setIsVisible(false);
+                } else {
+                    // Show if scrolling up
+                    setIsVisible(true);
+                }
+                setLastScrollY(window.scrollY);
+            }
+        };
+
+        window.addEventListener('scroll', controlNavbar);
+
+        return () => {
+            window.removeEventListener('scroll', controlNavbar);
+        };
+    }, [lastScrollY]);
+
     return (
-        <nav className="w-full border-b border-gray-100">
+        <nav className={`fixed w-full z-50 transition-transform duration-300 ${isVisible ? 'translate-y-0' : '-translate-y-full'} bg-white/90 backdrop-blur-md border-b border-gray-100`}>
             <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
                 <div className="flex justify-between items-center h-16">
 
@@ -34,7 +59,10 @@ export const Navbar = () => {
                     <div className="flex items-center gap-4">
                         {/* Desktop CTA */}
                         <div className="hidden md:block">
-                            <PrimaryButton text="Contacto" />
+                            <PrimaryButton
+                                text="Contacto"
+                                onClick={() => window.open(content.contactInfo.whatsapp, '_blank')}
+                            />
                         </div>
 
                         {/* Mobile CTA */}
