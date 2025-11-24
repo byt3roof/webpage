@@ -24,5 +24,10 @@
                 "icon": "src/assets/icons/grow_icon.svg"
             }
         ]
+    },
+    "ArtificalIntelligenceSolutions": {
+        "title": "Automatizaciones inteligentes impulsadas por IA.",
+        "subtitle": "Optimizamos tus procesos, infundimos inteligencia artificial y aprendizaje automático para multiplicar la productividad de tu equipo.",
+        "label": "Eficiencia inmediata"
     }
 }
