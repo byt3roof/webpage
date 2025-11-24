@@ -55,5 +55,11 @@
             "Implementación rápida y acompañamiento continuo."
         ],
         "ctaPrimary": "Agenda una llamada"
+    },
+    "footer": {
+        "contact": {
+            "email": "contacto@byt3roof.com",
+            "whatsapp": "+52 784 117 3423"
+        }
     }
 }
