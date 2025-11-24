@@ -1,6 +1,7 @@
 import { Navbar } from "./components/Navbar";
 import { Hero } from "./components/Hero";
 import { ValueProposition } from "./components/home/ValueProposition";
+import { ArtificialIntelligenceSolutions } from "./components/home/ArtificialIntelligenceSolutions";
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
       <main>
         <Hero />
         <ValueProposition />
+        <ArtificialIntelligenceSolutions />
       </main>
     </div>
   );

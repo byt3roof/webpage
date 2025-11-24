@@ -22,7 +22,27 @@
                 "title": "Crece sin límites",
                 "description": "Nuestra plataforma se ajusta a tu operación y escala conforme tu empresa crece, sin complicaciones ni procesos manuales.",
                 "icon": "src/assets/icons/grow_icon.svg"
+            },
+            {
+                "title": "Ahorro de costes",
+                "description": "Reduzca errores y costos operativos gracias a procesos eficientes y precisos.",
+                "icon": "src/assets/icons/piggy_bank_icon.svg"
+            },
+            {
+                "title": "Un sistema para todo",
+                "description": "Toda su información disponible en una sola plataforma, olvidese de gestionar diferentes sistemas para cada proceso.",
+                "icon": "src/assets/icons/library_icon.svg"
+            },
+            {
+                "title": "Adiós a sistemas antiguos",
+                "description": "Elimina la dependencia de sistemas legacy y desactualizados con nuestra plataforma empresarial, robusta y centralizada.",
+                "icon": "src/assets/icons/system_icon.svg"
             }
         ]
+    },
+    "ArtificalIntelligenceSolutions": {
+        "title": "Automatizaciones inteligentes impulsadas por IA.",
+        "subtitle": "Optimizamos tus procesos, infundimos inteligencia artificial y aprendizaje automático para multiplicar la productividad de tu equipo.",
+        "label": "Eficiencia inmediata"
     }
 }
