@@ -9,7 +9,7 @@ export const Navbar = () => {
 
     const navLinks = [
         { name: 'Inicio', href: '#' },
-        { name: 'Servicios', href: '#' }
+        { name: 'Servicios', href: '/services' }
     ]
 
     useEffect(() => {
