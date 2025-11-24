@@ -1,5 +1,6 @@
 import content from '../../../content.json';
 import { Card } from '../Card';
+import { getIconPath } from '../../utils/assets';
 
 export const ValueProposition = () => {
     const { valueProposition } = content;
@@ -19,6 +20,7 @@ export const ValueProposition = () => {
                             key={index}
                             title={card.title}
                             description={card.description}
+                            icon={getIconPath(card.icon)}
                         />
                     ))}
                 </div>
