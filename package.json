@@ -6,8 +6,9 @@
   "scripts": {
     "dev": "vite",
     "build": "vite build",
+    "deploy": "bun run build && wrangler deploy",
     "lint": "eslint .",
-    "preview": "vite preview"
+    "preview": "bun run build && wrangler dev"
   },
   "dependencies": {
     "@tailwindcss/vite": "^4.1.17",
@@ -25,6 +26,7 @@
     "eslint-plugin-react-hooks": "^7.0.1",
     "eslint-plugin-react-refresh": "^0.4.24",
     "globals": "^16.5.0",
+    "wrangler": "^4.52.1",
     "vite": "^7.2.4"
   }
 }
