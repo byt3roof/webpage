@@ -13,7 +13,7 @@ export const ERPBenefits = () => {
                 </div>
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-10">
                     {benefits.items.map((item, index) => (
-                        <div key={index} className="flex gap-6 p-6 rounded-2xl bg-white border border-gray-100 shadow-sm hover:shadow-md transition-shadow duration-300">
+                        <div key={index} className="flex gap-6 p-6 rounded-2xl bg-white border border-gray-100 shadow-sm hover:shadow-md transition-shadow duration-300 transform-gpu">
                             <div className="flex-shrink-0 w-12 h-12 rounded-xl bg-blue-50 flex items-center justify-center text-blue-600 font-bold text-xl">
                                 {index + 1}
                             </div>

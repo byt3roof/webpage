@@ -8,8 +8,8 @@ export const ERPHero = () => {
     return (
         <section className="relative w-full overflow-hidden bg-white pt-32 pb-20 lg:pt-48 lg:pb-32 min-h-screen flex items-center">
             <div className="absolute top-0 left-0 w-full h-full pointer-events-none">
-                <div className="absolute top-[-20%] right-[-10%] w-[60%] h-[60%] rounded-full bg-purple-100 blur-[100px] opacity-60"></div>
-                <div className="absolute bottom-[-10%] left-[-10%] w-[50%] h-[50%] rounded-full bg-blue-100 blur-[100px] opacity-60"></div>
+                <div className="absolute top-[-20%] right-[-10%] w-[60%] h-[60%] rounded-full bg-purple-100 blur-[100px] opacity-60 transform-gpu"></div>
+                <div className="absolute bottom-[-10%] left-[-10%] w-[50%] h-[50%] rounded-full bg-blue-100 blur-[100px] opacity-60 transform-gpu"></div>
             </div>
 
             <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-1 text-center">
