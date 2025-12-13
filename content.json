@@ -126,5 +126,93 @@
                 "ctaPrimary": "Solicita una solución a la medida"
             }
         }
-    ]
+    ],
+    "erpPage": {
+        "hero": {
+            "title": "Tu empresa, centralizada y optimizada.",
+            "subtitle": "ERP robusto basado en Odoo Community con personalizaciones estratégicas para potenciar ventas, inventarios y finanzas en una sola plataforma.",
+            "ctaPrimary": "Solicitar demo",
+            "ctaSecondary": "Explorar módulos"
+        },
+        "intro": {
+            "title": "Potencia Open Source, Ingeniería a Medida",
+            "description": "Aprovechamos la solidez de Odoo Community como motor base y lo elevamos con personalizaciones exclusivas para adaptarlo a la realidad operativa de tu negocio. Sin costos de licencia excesivos, con todo el poder de un ERP de clase mundial."
+        },
+        "benefits": {
+            "title": "Ventajas de una Administración Centralizada",
+            "items": [
+                {
+                    "title": "Verdad Única",
+                    "description": "Elimina silos de información. Ventas ve lo mismo que inventarios y finanzas en tiempo real."
+                },
+                {
+                    "title": "Eficiencia Operativa",
+                    "description": "Reduce hasta un 40% el tiempo dedicado a tareas administrativas manuales y repetitivas."
+                },
+                {
+                    "title": "Escalabilidad Modular",
+                    "description": "Activa solo lo que necesitas hoy y agrega módulos conforme tu empresa crece."
+                },
+                {
+                    "title": "Control 360°",
+                    "description": "Dashboards integrados para monitorear cada KPI de tu organización desde cualquier dispositivo."
+                }
+            ]
+        },
+        "modules": {
+            "title": "Un ecosistema completo de aplicaciones",
+            "subtitle": "Todo lo que necesitas para operar, integrado nativamente.",
+            "list": [
+                {
+                    "name": "CRM",
+                    "desc": "Gestiona leads, oportunidades y pipeline de ventas con seguimiento automatizado."
+                },
+                {
+                    "name": "Ventas",
+                    "desc": "Cotizaciones profesionales, firmas electrónicas y facturación en un clic."
+                },
+                {
+                    "name": "Sitio Web",
+                    "desc": "Tu presencia digital totalmente integrada con tu inventario y servicios."
+                },
+                {
+                    "name": "eCommerce",
+                    "desc": "Vende en línea con sincronización automática de stock y contabilidad."
+                },
+                {
+                    "name": "Inventario",
+                    "desc": "Control de stock en tiempo real, trazabilidad, múltiples almacenes y rutas logísticas."
+                },
+                {
+                    "name": "Compras",
+                    "desc": "Automatiza RFQs, gestiona proveedores y optimiza el reabastecimiento."
+                },
+                {
+                    "name": "Manufactura",
+                    "desc": "Planificación de producción (MRP), listas de materiales y control de calidad."
+                },
+                {
+                    "name": "Reparaciones",
+                    "desc": "Gestión eficiente de órdenes de servicio, refacciones y garantías."
+                },
+                {
+                    "name": "Recursos Humanos",
+                    "desc": "Directorio de empleados, reclutamiento y gestión de contratos."
+                },
+                {
+                    "name": "Gastos",
+                    "desc": "Control y aprobación de viáticos y gastos operativos simplificado."
+                },
+                {
+                    "name": "Flota",
+                    "desc": "Seguimiento de vehículos, mantenimientos y control de combustible."
+                }
+            ]
+        },
+        "cta": {
+            "title": "¿Listo para centralizar tu operación?",
+            "subtitle": "Deja atrás las hojas de cálculo y los sistemas desconectados.",
+            "buttonText": "Hablar con un experto"
+        }
+    }
 }
