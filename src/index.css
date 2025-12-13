@@ -1,8 +1,8 @@
 @import "tailwindcss";
 
 @theme {
-    --color-primary: #50589C;
-    --color-primary-hover: #636CCB;
+    --color-primary: #50589c;
+    --color-primary-hover: #636ccb;
 
     --animate-blob: blob 7s infinite;
 
@@ -23,4 +23,62 @@
             transform: translate(0px, 0px) scale(1);
         }
     }
+}
+
+.mesh-gradient {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-image:
+        radial-gradient(
+            at 40% 20%,
+            hsla(28, 100%, 74%, 0.3) 0px,
+            transparent 50%
+        ),
+        radial-gradient(
+            at 80% 0%,
+            hsla(189, 100%, 56%, 0.3) 0px,
+            transparent 50%
+        ),
+        radial-gradient(
+            at 0% 50%,
+            hsla(355, 100%, 93%, 0.3) 0px,
+            transparent 50%
+        ),
+        radial-gradient(
+            at 80% 50%,
+            hsla(340, 100%, 76%, 0.3) 0px,
+            transparent 50%
+        ),
+        radial-gradient(
+            at 0% 100%,
+            hsla(22, 100%, 77%, 0.3) 0px,
+            transparent 50%
+        ),
+        radial-gradient(
+            at 80% 100%,
+            hsla(242, 100%, 70%, 0.3) 0px,
+            transparent 50%
+        ),
+        radial-gradient(
+            at 0% 0%,
+            hsla(343, 100%, 76%, 0.3) 0px,
+            transparent 50%
+        );
+    filter: blur(20px);
+    z-index: 0;
+}
+
+.noise-texture::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+    background-image: url('data:image/svg+xml,<svg viewBox="0 0 1024 1024" xmlns="http://www.w3.org/2000/svg"><filter id="noiseFilter"><feTurbulence type="fractalNoise" baseFrequency="0.65" numOctaves="3" stitchTiles="stitch"/></filter><rect width="100%" height="100%" filter="url(#noiseFilter)"/></svg>');
+    opacity: 0.1;
 }
