@@ -14,10 +14,10 @@ export const ArtificialIntelligenceSolutions = () => {
 
             <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
                 <div className="max-w-3xl">
-                    <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-primary/10 border border-primary/20 text-primary-hover text-sm font-medium mb-6">
+                    <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-primary/20 border border-primary/30 text-indigo-200 text-sm font-medium mb-6">
                         <span className="relative flex h-2 w-2">
-                            <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-primary opacity-75"></span>
-                            <span className="relative inline-flex rounded-full h-2 w-2 bg-primary"></span>
+                            <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-indigo-400 opacity-75"></span>
+                            <span className="relative inline-flex rounded-full h-2 w-2 bg-indigo-400"></span>
                         </span>
                         {data.label}
                     </div>
@@ -26,7 +26,7 @@ export const ArtificialIntelligenceSolutions = () => {
                         {data.title}
                     </h2>
 
-                    <p className="text-xl text-gray-400 leading-relaxed max-w-2xl">
+                    <p className="text-xl text-gray-200 leading-relaxed max-w-2xl">
                         {data.subtitle}
                     </p>
                 </div>
