@@ -1,4 +1,5 @@
 import { useState, useEffect } from "react"
+import { Link } from "react-router-dom";
 import { PrimaryButton } from "./PrimaryButton";
 import content from '../../content.json';
 
@@ -9,7 +10,8 @@ export const Navbar = () => {
 
     const navLinks = [
         { name: 'Inicio', href: '/' },
-        { name: 'Servicios', href: '/services' }
+        { name: 'Servicios', href: '/services' },
+        { name: 'ERP Software', href: '/erp' }
     ]
 
     useEffect(() => {
@@ -39,20 +41,20 @@ export const Navbar = () => {
                 <div className="flex justify-between items-center h-16">
 
                     <div className="flex-shrink-0 flex items-center gap-2 cursor-pointer">
-                        <span className="font-bold text-xl tracking-tight text-gray-900">
+                        <Link to="/" className="font-bold text-xl tracking-tight text-gray-900">
                             Byt3roof
-                        </span>
+                        </Link>
                     </div>
 
                     <div className="hidden md:flex items-center gap-1">
                         {navLinks.map((link) => (
-                            <a
+                            <Link
                                 key={link.name}
-                                href={link.href}
+                                to={link.href}
                                 className="px-3 py-2 rounded-md text-sm font-medium hover:text-gray-600 hover:bg-gray-100 transition-all duration-200"
                             >
                                 {link.name}
-                            </a>
+                            </Link>
                         ))}
                     </div>
 
@@ -86,6 +88,30 @@ export const Navbar = () => {
 
                 </div>
             </div>
+
+            {/* Mobile Menu */}
+            {isMobileMenuOpen && (
+                <div className="md:hidden bg-white border-t border-gray-100 shadow-xl absolute w-full left-0 z-40">
+                    <div className="px-4 pt-2 pb-6 space-y-2">
+                        {navLinks.map((link) => (
+                            <Link
+                                key={link.name}
+                                to={link.href}
+                                onClick={() => setIsMobileMenuOpen(false)}
+                                className="block px-4 py-3 rounded-lg text-base font-medium text-gray-700 hover:text-blue-600 hover:bg-gray-50 transition-all"
+                            >
+                                {link.name}
+                            </Link>
+                        ))}
+                        <div className="pt-4 px-4">
+                            <PrimaryButton
+                                text="Contacto"
+                                onClick={() => window.open(content.contactInfo.whatsapp, '_blank')}
+                            />
+                        </div>
+                    </div>
+                </div>
+            )}
         </nav>
     )
 }
